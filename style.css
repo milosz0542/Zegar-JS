@@ -1,0 +1,19 @@
+body {
+    background-color: gray;
+}
+
+.fulldate {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+
+    font-size: 80px;
+    color: #ff6400;
+    background: #232323;
+    border: 3px solid transparent;
+    border-image: linear-gradient(135deg, #ff0000, #ffff00);
+    border-image-slice: 1;
+    padding: 10px 15px 10px 15px;
+    text-align: center;
+}
